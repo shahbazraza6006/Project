@@ -1,0 +1,126 @@
+/* rubric.css */
+
+/* Body and HTML */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  .bold-th{
+    font-weight: bold;
+  
+  }
+  
+.top-color{
+    margin-top: 15px;
+    background-color: rgb(5, 73, 8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+  
+  /* Full-page content */
+  .rubric-container {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
+  .additional-content{
+    align-items: flex-start;
+  }
+  
+ 
+
+
+
+
+  
+  /* Headings */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 28px;
+  }
+  
+  /* Paragraphs */
+  p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Table */
+  .rubric-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .rubric-table th,
+  .rubric-table td {
+    border: 1px solid rgb(5, 73, 8);
+    padding: 8px;
+  }
+  
+
+  .ad {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .ad li{
+    text-align: start;
+    line-height: 25px;
+    font-size: 18px;
+    
+    
+}
+.bw{
+    background-color:#f4f6fb !important;
+    font-size: 24px;
+    color: rgb(5, 73, 8);;
+}
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens/mobile devices */
+    .rubric-container {
+        padding: 10px;
+    }
+
+    .top-color {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .rubric-table th,
+    .rubric-table td {
+        padding: 6px;
+    }
+
+    .ad li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bw {
+        font-size: 20px;
+    }
+}

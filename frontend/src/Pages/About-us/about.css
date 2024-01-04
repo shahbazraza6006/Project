@@ -1,0 +1,138 @@
+/* Styles for the main container */
+.about-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Styles for the contact section container */
+.contact-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-bottom: 70px;
+    border-color: darkgreen;
+}
+
+/* Styles for the main box */
+.about-box {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-color: darkgreen;
+    line-height: 50px;
+    
+}
+
+.about-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: darkgreen;
+}
+
+.about-box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+/* Styles for the contact information */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for the right side with social media icons and contact info */
+.contact-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    margin-left: 650px;
+    margin-top: -150px;
+    
+   
+}
+
+.contact-left p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-align: start;
+}
+
+.contact-topmiddle {
+    text-align: center;
+}
+
+.con {
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* Mobile Styles */
+
+/* For devices up to 720px width (adjust as needed) */
+
+/* Mobile-specific CSS for smaller devices */
+@media (max-width: 768px) {
+    /* Styles for the main container */
+    .about-container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    /* Styles for the main box */
+    .about-box {
+        padding: 15px;
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+
+    .about-box h2 {
+        font-size: 20px;
+    }
+
+    .about-box p {
+        font-size: 14px;
+    }
+
+    /* Styles for the contact section container */
+    .contact-container {
+        padding: 15px;
+        max-width: 100%;
+    }
+   
+
+    /* Styles for the right side with social media icons and contact info */
+    .contact-right {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+       
+    }
+
+    .social-media {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .contact-left p {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+    .social-media {
+        margin-left: calc((100% - 10px) / 2); /* Adjust the value based on your container width and social media icons width */
+    }
+}
