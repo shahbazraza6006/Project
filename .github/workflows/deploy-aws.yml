@@ -40,7 +40,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_ACCESS_SECRET_KEY }}
           region: us-east-1
           application_name: CloudProject
-          environment_name: CloudProject-env 
+          environment_name: CloudProject-env-1 
           existing_bucket_name: elasticbeanstalk-us-east-1-461130657437
           use_existing_version_if_available: false
           version_label: ${{ github.sha }}
