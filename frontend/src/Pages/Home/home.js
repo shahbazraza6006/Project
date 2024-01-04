@@ -33,7 +33,7 @@ const Home = () => {
       <div className="grid-item">
         <Link to='/essay'>
         <img src={essay} alt="essayPicture" />
-        <p className="name">2023_CS2EC</p>
+        <p className="name">2023_CS2ECS</p>
         <div className="description">
         <p className="description">2023_CS2EC Essay Create  </p>
         </div>
