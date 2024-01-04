@@ -32,7 +32,7 @@ export default function Signup() {
     };
 
     try {
-      const response = await axios.post('http://cloudproject-env.eba-krwc6p82.us-east-1.elasticbeanstalk.com:4000/user/register', formData);
+      const response = await axios.post('http://backend-env.eba-cwvy2dnp.us-east-1.elasticbeanstalk.com/user/register', formData);
       console.log('Signup successful:', response.data);
       setSuccess('Signup successful. You can now login.');
 

@@ -23,7 +23,7 @@ export default function Login() {
     };
 
     try {
-      const response = await axios.post('http://cloudproject-env.eba-krwc6p82.us-east-1.elasticbeanstalk.com:4000/user/login', formData);
+      const response = await axios.post('http://backend-env.eba-cwvy2dnp.us-east-1.elasticbeanstalk.com/user/login', formData);
       console.log('Login successful:', response.data);
 
       if (response.data && response.data.success) {
